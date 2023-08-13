@@ -1,21 +1,20 @@
 package arraysAndHashing;
 
+import java.util.HashMap;
+
 class TwoSum {
     public int[] twoSum(int[] nums, int target) {
-        int[] myList = new int[2];
-        for(int i =0;i<nums.length;i++){
-            for(int k =i+1;i<nums.length-1;k++){
-                if(k>=nums.length){
-                    break;
-                }
-                if(nums[i]+nums[k]==target){
-                    myList[0] = i;
-                    myList[1] = k;
-
-                    return myList;
-                }
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        int[] solution = new int[2];
+        for(int i = 0;i<nums.length;i++){
+            if(map.containsKey(target - nums[i])){
+                solution[0] = i;
+                solution[1] = map.get(target-nums[i]);
+                break;
+            } else {
+                map.put(nums[i], i);
             }
         }
-        return myList;
+        return solution;
     }
 }
