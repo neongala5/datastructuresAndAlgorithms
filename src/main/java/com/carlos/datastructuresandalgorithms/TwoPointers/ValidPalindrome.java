@@ -1,4 +1,4 @@
-package TwoPointers;
+package com.carlos.datastructuresandalgorithms.TwoPointers;
 
 class ValidPalindrome {
     public boolean isPalindrome(String s) {

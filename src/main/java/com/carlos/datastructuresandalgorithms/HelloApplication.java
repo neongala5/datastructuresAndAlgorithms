@@ -1,12 +1,6 @@
 package com.carlos.datastructuresandalgorithms;
 
-import arraysAndHashing.ContainsDuplicates;
-import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
-
-import java.io.IOException;
+import com.carlos.datastructuresandalgorithms.arraysAndHashing.ContainsDuplicates;
 
 public class HelloApplication  {
     public static void main(String[] args) {
