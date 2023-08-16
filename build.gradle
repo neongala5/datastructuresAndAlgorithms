@@ -25,7 +25,7 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'com.carlos.datastructuresandalgorithms'
-    mainClass = 'com.carlos.datastructuresandalgorithms.HelloApplication'
+    mainClass = 'com.carlos.datastructuresandalgorithms.DatastructuresApplication'
 }
 
 dependencies {

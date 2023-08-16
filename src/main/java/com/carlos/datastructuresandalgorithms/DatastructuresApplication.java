@@ -2,7 +2,7 @@ package com.carlos.datastructuresandalgorithms;
 
 import com.carlos.datastructuresandalgorithms.arraysAndHashing.ContainsDuplicates;
 
-public class HelloApplication  {
+public class DatastructuresApplication {
     public static void main(String[] args) {
         int[] nums = {1,2,3};
 
