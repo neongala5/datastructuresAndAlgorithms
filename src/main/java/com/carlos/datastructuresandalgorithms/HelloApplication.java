@@ -1,4 +1,4 @@
-package com.example.datastructuresandalgorithms;
+package com.carlos.datastructuresandalgorithms;
 
 import arraysAndHashing.ContainsDuplicates;
 import javafx.application.Application;

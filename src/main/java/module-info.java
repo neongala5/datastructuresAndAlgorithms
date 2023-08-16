@@ -1,8 +1,8 @@
-module com.example.datastructuresandalgorithms {
+module com.carlos.datastructuresandalgorithms {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.datastructuresandalgorithms to javafx.fxml;
-    exports com.example.datastructuresandalgorithms;
+    opens com.carlos.datastructuresandalgorithms to javafx.fxml;
+    exports com.carlos.datastructuresandalgorithms;
 }

@@ -1,4 +1,4 @@
-package com.example.datastructuresandalgorithms;
+package com.carlos.datastructuresandalgorithms;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
