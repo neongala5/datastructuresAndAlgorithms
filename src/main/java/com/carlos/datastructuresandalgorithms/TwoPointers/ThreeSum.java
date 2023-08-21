@@ -1,4 +1,8 @@
-class Solution {
+package com.carlos.datastructuresandalgorithms.TwoPointers;
+
+import java.util.*;
+
+class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> resultArray = new ArrayList<>();
         int valueNeeded;
@@ -18,9 +22,7 @@ class Solution {
                     triplet.add(valueNeeded);
                     Collections.sort(triplet);
                     uniqueSolutions.add(triplet);
-                   // System.out.println(triplet);
 
-                    //resultArray.add(triplet);
                 }
 
                 map.put(nums[j], j);
