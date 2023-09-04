@@ -1,6 +1,5 @@
 package com.carlos.datastructuresandalgorithms.Stack;
 
-
 import java.util.Stack;
 
 class EvaluateReversePolishNotation {
