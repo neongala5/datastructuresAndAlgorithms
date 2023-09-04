@@ -1,6 +1,5 @@
 package com.carlos.datastructuresandalgorithms.BinaryTrees;
 
-
 class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if( root == null) return root;
