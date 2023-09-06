@@ -1,6 +1,6 @@
 package com.carlos.datastructuresandalgorithms.BinaryTrees;
 
-class Solution {
+class DiameterOfBinaryTree {
     int maxDiameter = 0;
     public int diameterOfBinaryTree(TreeNode root) {
         maxDepth(root);
