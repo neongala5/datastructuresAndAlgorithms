@@ -4,7 +4,6 @@ import java.util.Stack;
 
 class MinStack {
     Stack<Integer> stack = new Stack<>();
-
     Stack<Integer> minStack = new Stack<>();
 
 
