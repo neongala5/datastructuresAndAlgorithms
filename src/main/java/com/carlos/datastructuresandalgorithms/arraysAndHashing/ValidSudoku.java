@@ -24,7 +24,6 @@ class ValidSudoku {
             }
         }
 
-
         // This may be a ton of nested for loops, but its still O(1) so...
         for(int x = 0;x < 9;x += 3){
             for(int y = 0;y < 9;y += 3){
