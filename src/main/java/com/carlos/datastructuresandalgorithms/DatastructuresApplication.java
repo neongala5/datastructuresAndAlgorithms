@@ -10,6 +10,5 @@ public class DatastructuresApplication {
         System.out.println(c.containsDuplicate(nums));
         System.out.println("hello world");
         System.out.println("hello worghjkld");
-
     }
 }
