@@ -6,10 +6,7 @@ class MinStack {
     Stack<Integer> stack = new Stack<>();
     Stack<Integer> minStack = new Stack<>();
 
-
-    public MinStack() {
-
-    }
+    public MinStack() {}
 
     public void push(int val) {
         if(minStack.isEmpty() || val <= minStack.peek()){
