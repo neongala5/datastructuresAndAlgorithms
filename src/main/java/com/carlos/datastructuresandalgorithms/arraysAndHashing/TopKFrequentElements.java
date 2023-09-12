@@ -7,7 +7,6 @@ import java.util.HashMap;
 
 class TopKFrequentElements {
     public int[] topKFrequent(int[] nums, int k) {
-
         // Although there may be faster solutions, i was trying to stick to strictly using hashmaps
         // and arrays for this one. I was forced to also write my own comparator too so that was a
         // good thing to learn about.
