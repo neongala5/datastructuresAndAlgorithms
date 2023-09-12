@@ -2,7 +2,6 @@ package com.carlos.datastructuresandalgorithms.BinarySearch;
 
 class SearchATwoDMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
-
         int rows = matrix.length;
         int columns = matrix[0].length;
 
