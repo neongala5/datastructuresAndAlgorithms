@@ -5,7 +5,6 @@ class KokoEatingBananas {
         // numbers in general are ordered, so you can do a binary search on
         // numbers themselves.
         // We are just guessing, then guessing better and better until we find a good one.
-
         int left = 0;
         int right = Integer.MAX_VALUE;
         int midPoint = (left + right) / 2;
