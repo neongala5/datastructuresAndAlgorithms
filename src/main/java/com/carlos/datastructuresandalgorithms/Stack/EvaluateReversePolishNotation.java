@@ -4,7 +4,6 @@ import java.util.Stack;
 
 class EvaluateReversePolishNotation {
     public int evalRPN(String[] tokens) {
-
         Stack<String> stack = new Stack<>();
         int second;
         int first;
