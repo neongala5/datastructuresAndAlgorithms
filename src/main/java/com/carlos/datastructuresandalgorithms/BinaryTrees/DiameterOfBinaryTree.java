@@ -18,5 +18,4 @@ class DiameterOfBinaryTree {
 
         return Math.max(leftDepth, rightDepth) +1;
     }
-
 }
