@@ -7,7 +7,6 @@ class ValidPalindrome {
         // Although using 2 pointers is more clever, I believe it's still not
         // fast enough. I would rather just reverse the string and compare. its only like 3 lines of code that way and its pretty much just as fast.
         //StringBuilder reversedString = new StringBuilder(normalString).reverse();
-
         int aPointer = 0;
         int bPointer = normalString.length()-1;
 
@@ -22,7 +21,6 @@ class ValidPalindrome {
         }
 
         return true;
-
         //return normalString.equals(reversedString.toString());
     }
 }
