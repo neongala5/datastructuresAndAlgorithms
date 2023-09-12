@@ -2,7 +2,6 @@ package com.carlos.datastructuresandalgorithms.BinarySearch;
 
 class BinarySearch {
     public int search(int[] nums, int target) {
-
         int pointer;
         int leftMax = 0;
         int rightMax = nums.length-1;
