@@ -3,19 +3,15 @@ package com.carlos.datastructuresandalgorithms.DynamicProgramming;
 class HouseRobber {
     public int rob(int[] nums) {
 
-        int N = nums.length;
+        int[] dp = new int[nums.length + 1];
 
-        if (N == 0) { return 0;}
+        dp[0] = 0;
+        dp[1] = nums[0];
 
-        int[] maxRobbedAmount = new int[nums.length + 1];
-
-        maxRobbedAmount[N] = 0;
-        maxRobbedAmount[N - 1] = nums[N - 1];
-
-        for (int i = N - 2; i >= 0; --i) {
-            maxRobbedAmount[i] = Math.max(maxRobbedAmount[i + 1], maxRobbedAmount[i + 2] + nums[i]);
+        for(int i = 1; i < dp.length - 1; i++) {
+            dp[i+1] = Math.max(dp[i], dp[i - 1] + nums[i]);
         }
 
-        return maxRobbedAmount[0];
+        return dp[dp.length - 1];
     }
 }
