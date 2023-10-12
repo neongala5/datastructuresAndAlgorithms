@@ -26,6 +26,5 @@ class HouseRobberII {
         }
 
         return Math.max(maxMoneyTwo[maxMoneyTwo.length - 2], maxMoney[maxMoney.length - 1]);
-
     }
 }
