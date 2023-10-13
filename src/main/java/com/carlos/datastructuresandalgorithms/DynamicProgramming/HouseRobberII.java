@@ -15,7 +15,6 @@ class HouseRobberII {
             maxMoney[i+1] = Math.max(maxMoney[i], maxMoney[i-1] + nums[i]);
         }
 
-
         int[] maxMoneyTwo = new int[nums.length + 1];
 
         maxMoneyTwo[0] = 0;
