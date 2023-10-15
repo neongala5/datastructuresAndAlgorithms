@@ -23,6 +23,7 @@ class HouseRobberII {
         for(int i = 1; i < nums.length-1; i++) {
             maxMoneyTwo[i+1] = Math.max(maxMoneyTwo[i], maxMoneyTwo[i-1] + nums[i]);
         }
+
         return Math.max(maxMoneyTwo[maxMoneyTwo.length - 2], maxMoney[maxMoney.length - 1]);
     }
 }
