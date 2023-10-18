@@ -11,7 +11,6 @@ class LengthOfLastWord {
             size++;
         }
 
-
         return size;
     }
 }
