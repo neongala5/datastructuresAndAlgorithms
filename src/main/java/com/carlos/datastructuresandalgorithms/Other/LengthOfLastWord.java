@@ -10,7 +10,6 @@ class LengthOfLastWord {
             if(s.charAt(i) == ' ') continue;
             size++;
         }
-
         return size;
     }
 }
