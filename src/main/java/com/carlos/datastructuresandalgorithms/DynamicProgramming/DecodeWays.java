@@ -8,11 +8,13 @@ class DecodeWays {
         dp[1] = s.charAt(0) == '0' ? 0 : 1;
 
         for(int i = 2; i < dp.length; i++) {
-            if (s.charAt(i - 1) != '0') {
-                dp[i] = dp[i - 1];
+            int oneDigit = Integer.valueOf(s.substring(i - 1, i));
+            int twoDigit = Integer.valueOf(s.substring(i - 2, i));
+
+            if(oneDigit > 0) {
+                dp[i] += dp[i - 1];
             }
 
-            int twoDigit = Integer.valueOf(s.substring(i - 2, i));
             if (twoDigit >= 10 && twoDigit <= 26) {
                 dp[i] += dp[i - 2];
             }
