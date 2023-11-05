@@ -1,4 +1,4 @@
-package com.carlos.datastructuresandalgorithms.arraysAndHashing;
+package com.carlos.datastructuresandalgorithms.ArraysAndHashing;
 
 import java.util.Arrays;
 

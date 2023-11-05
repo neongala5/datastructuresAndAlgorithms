@@ -1,6 +1,6 @@
 package com.carlos.datastructuresandalgorithms;
 
-import com.carlos.datastructuresandalgorithms.arraysAndHashing.ContainsDuplicates;
+import com.carlos.datastructuresandalgorithms.ArraysAndHashing.ContainsDuplicates;
 
 public class DatastructuresApplication {
     public static void main(String[] args) {
